@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Ask a question or discuss a use case
+    url: https://github.com/Rommancen/before-build/discussions
+    about: Use Discussions for questions, examples, and open-ended conversation.
+  - name: Read the documentation
+    url: https://github.com/Rommancen/before-build#contents
+    about: Start with the README and the linked templates.

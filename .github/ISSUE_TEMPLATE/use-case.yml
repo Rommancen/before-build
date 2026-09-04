@@ -1,0 +1,27 @@
+name: Share a use case
+description: Share how you applied Before Build
+title: "Use case: "
+labels:
+  - use-case
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Describe the request and decision context without confidential data.
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Outcome
+      description: What changed after using the template?
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy check
+      options:
+        - label: I removed confidential, personal, and client-identifying information.
+          required: true

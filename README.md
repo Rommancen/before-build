@@ -20,6 +20,19 @@ This template does not replace customer research, financial modeling, legal revi
 - [`docs/example_intake_record.md`](docs/example_intake_record.md) — an anonymized example showing why a feature request leads to `TEST`, not `BUILD`.
 - [`docs/project_decision_profile_template.json`](docs/project_decision_profile_template.json) — a project-specific configuration that does not replace or weaken the decision engine.
 
+English documentation: [`intake checklist`](docs/intake_checklist.en.md) · [`intake record`](docs/intake_record_template.en.md) · [`example`](docs/example_intake_record.en.md)
+
+```mermaid
+flowchart LR
+    A[Request] --> B[Explore]
+    B --> C[Test]
+    C --> D[Commitment]
+    D --> E[Build]
+    E --> F[Scale]
+    C --> X[Kill / Reframe]
+    D --> X
+```
+
 ## Quick start
 
 1. Copy this repository for a new project.
@@ -58,6 +71,8 @@ Distributed under the [MIT License](LICENSE).
 # Русская версия
 
 Лёгкий шаблон для проверки продуктовых и заказных запросов до оценки, прототипирования и разработки.
+
+Документация на английском: [`intake checklist`](docs/intake_checklist.en.md) · [`intake record`](docs/intake_record_template.en.md) · [`example`](docs/example_intake_record.en.md)
 
 Шаблон помогает не допускать типичных ошибок: строить по feature request, считать интервью спросом, игнорировать готовые альтернативы, путать операционный доступ с готовностью платить и превращать технический prototype в незаказанный MVP.
 

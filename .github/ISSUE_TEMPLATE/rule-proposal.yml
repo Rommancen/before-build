@@ -1,0 +1,26 @@
+name: Rule or gate proposal
+description: Propose a clearer or stronger evidence rule
+title: "Rule proposal: "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: scenario
+    attributes:
+      label: Scenario
+      description: What real situation does this address?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and trade-offs
+      description: What supports the change, and what could it make worse?
+    validations:
+      required: true

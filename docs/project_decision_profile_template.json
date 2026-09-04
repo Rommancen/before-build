@@ -1,0 +1,27 @@
+{
+  "profile_name": "Project Decision Profile",
+  "profile_version": "1.0",
+  "current_mode": "NEW_OPPORTUNITY",
+  "current_decision": "EXPLORE",
+  "strategic_sequence": [
+    "observe_unmet_problem",
+    "validate_behavioral_evidence",
+    "obtain_customer_commitment",
+    "only_then_authorize_constrained_build"
+  ],
+  "rules": {
+    "market_window_rule": {
+      "principle": "Evidence discipline prevents waste, not speed.",
+      "when": [
+        "a time-limited market window exists",
+        "credible buyer interest exists",
+        "downside is bounded"
+      ],
+      "action": "Validation and selling may proceed in parallel. Preparation is limited to validation materials, manual delivery design and, only under the decision engine's commercial-build exception, a minimum technical prototype. This does not authorize MVP or production build before the applicable evidence gate."
+    },
+    "project_specific_gates": {
+      "rule": "Add only verified project-specific legal, security, integration or delivery gates.",
+      "requirements": []
+    }
+  }
+}

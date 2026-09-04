@@ -37,11 +37,12 @@ The name of the initiative does not change the standard. Every idea must first p
 - [`docs/intake_checklist.md`](docs/intake_checklist.md) — a short mandatory triage for every new request.
 - [`docs/intake_record_template.md`](docs/intake_record_template.md) — a reusable record for evidence, alternatives, commitment, and the decision.
 - [`docs/example_intake_record.md`](docs/example_intake_record.md) — an anonymized example showing why a feature request leads to `TEST`, not `BUILD`.
+- [`docs/use_case_record_template.en.md`](docs/use_case_record_template.en.md) — a privacy-safe template for recording what a real validation case taught.
 - [`docs/project_decision_profile_template.json`](docs/project_decision_profile_template.json) — a project-specific configuration that does not replace or weaken the decision engine.
 - [`docs/glossary.en.md`](docs/glossary.en.md) — concise definitions of the core decision-engine terms.
 - [`docs/example_paid_pilot_intake_record.en.md`](docs/example_paid_pilot_intake_record.en.md) — an illustrative paid-pilot example with a limited `BUILD` authorization.
 
-English documentation: [`intake checklist`](docs/intake_checklist.en.md) · [`intake record`](docs/intake_record_template.en.md) · [`example`](docs/example_intake_record.en.md) · [`glossary`](docs/glossary.en.md) · [`paid-pilot example`](docs/example_paid_pilot_intake_record.en.md)
+English documentation: [`intake checklist`](docs/intake_checklist.en.md) · [`intake record`](docs/intake_record_template.en.md) · [`example`](docs/example_intake_record.en.md) · [`use-case record`](docs/use_case_record_template.en.md) · [`glossary`](docs/glossary.en.md) · [`paid-pilot example`](docs/example_paid_pilot_intake_record.en.md)
 
 ```mermaid
 flowchart LR
@@ -115,6 +116,7 @@ Distributed under the [MIT License](LICENSE).
 - [`docs/intake_checklist.md`](docs/intake_checklist.md) — короткий обязательный triage для каждого нового запроса.
 - [`docs/intake_record_template.md`](docs/intake_record_template.md) — копируемая карточка для фиксации evidence, альтернатив, commitment и решения.
 - [`docs/example_intake_record.md`](docs/example_intake_record.md) — короткий обезличенный пример: почему feature request приводит к `TEST`, а не к `BUILD`.
+- [`docs/use_case_record_template.md`](docs/use_case_record_template.md) — шаблон безопасной фиксации результатов реального validation-case.
 - [`docs/project_decision_profile_template.json`](docs/project_decision_profile_template.json) — копируемая настройка для конкретного проекта; не заменяет и не ослабляет decision engine.
 - [`docs/quick_start.ru.md`](docs/quick_start.ru.md) — русская пошаговая инструкция для первого запуска.
 

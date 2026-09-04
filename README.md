@@ -4,6 +4,8 @@
 
 A lightweight, opinionated template for validating product and custom-development requests before estimation, prototyping, and build.
 
+[![Validate repository](https://github.com/Rommancen/before-build/actions/workflows/validate.yml/badge.svg)](https://github.com/Rommancen/before-build/actions/workflows/validate.yml) [![Latest release](https://img.shields.io/github/v/release/Rommancen/before-build?display_name=tag)](https://github.com/Rommancen/before-build/releases/latest) [![License](https://img.shields.io/github/license/Rommancen/before-build)](LICENSE)
+
 Before Build helps prevent common mistakes: building from a feature request, treating interviews as demand, ignoring existing alternatives, confusing operational access with willingness to pay, and turning a technical prototype into an unsolicited MVP.
 
 [Discussions](https://github.com/Rommancen/before-build/discussions) · [Issues](https://github.com/Rommancen/before-build/issues) · [Latest release](https://github.com/Rommancen/before-build/releases/latest)

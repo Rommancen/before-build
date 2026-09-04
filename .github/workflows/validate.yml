@@ -1,0 +1,40 @@
+name: Validate repository
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Validate JSON
+        run: |
+          python -m json.tool docs/decision_engine.json >/dev/null
+          python -m json.tool docs/project_decision_profile_template.json >/dev/null
+
+      - name: Validate local Markdown links
+        run: |
+          python - <<'PY'
+          import re
+          from pathlib import Path
+
+          for path in Path('.').glob('**/*.md'):
+              text = path.read_text(encoding='utf-8')
+              for target in re.findall(r'\[[^\]]+\]\(([^)#]+)', text):
+                  if target.startswith(('http://', 'https://')):
+                      continue
+                  if not (path.parent / target).resolve().exists():
+                      raise SystemExit(f'Broken Markdown link: {path} -> {target}')
+          PY
+
+      - name: Check whitespace errors
+        run: git diff --check

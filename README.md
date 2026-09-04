@@ -6,6 +6,8 @@ A lightweight, opinionated template for validating product and custom-developmen
 
 Before Build helps prevent common mistakes: building from a feature request, treating interviews as demand, ignoring existing alternatives, confusing operational access with willingness to pay, and turning a technical prototype into an unsolicited MVP.
 
+[Discussions](https://github.com/Rommancen/before-build/discussions) · [Issues](https://github.com/Rommancen/before-build/issues) · [Latest release](https://github.com/Rommancen/before-build/releases/latest)
+
 ## Who it is for
 
 Founders, product managers, consultants, agencies, and development teams that need to decide whether an incoming request should become discovery, an experiment, or a build.

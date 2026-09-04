@@ -5,7 +5,7 @@ Thank you for helping improve Before Build.
 ## What is welcome
 
 - clearer wording and translations;
-- anonymized examples based on real validation patterns;
+- anonymized examples and use-case records based on real validation patterns;
 - improvements to intake fields and test patterns;
 - corrections to ambiguous or contradictory rules;
 - documentation and accessibility improvements.
@@ -23,7 +23,7 @@ Please explain:
 3. what evidence supports the change;
 4. whether the canonical decision logic is affected.
 
-Keep changes focused. Avoid client data, personal information, secrets, and unverified claims.
+Keep changes focused. Avoid client data, personal information, secrets, and unverified claims. A shared use-case record must be anonymized and must not turn a single case into general proof of demand.
 
 ## Issues
 

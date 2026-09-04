@@ -2,19 +2,34 @@
 
 **Repository slug:** `before-build`
 
-A lightweight, opinionated template for validating product and custom-development requests before estimation, prototyping, and build.
+A lightweight, opinionated framework for validating business ideas, hypotheses, startup concepts, SaaS products, business plans, monetization models, and product or custom-development requests before investment, estimation, prototyping, and build.
 
 [![Validate repository](https://github.com/Rommancen/before-build/actions/workflows/validate.yml/badge.svg)](https://github.com/Rommancen/before-build/actions/workflows/validate.yml) [![Latest release](https://img.shields.io/github/v/release/Rommancen/before-build?display_name=tag)](https://github.com/Rommancen/before-build/releases/latest) [![License](https://img.shields.io/github/license/Rommancen/before-build)](LICENSE)
 
-Before Build helps prevent common mistakes: building from a feature request, treating interviews as demand, ignoring existing alternatives, confusing operational access with willingness to pay, and turning a technical prototype into an unsolicited MVP.
+Before Build is a universal evidence gate for any initiative that claims it can create value, demand, revenue, or a repeatable business. It helps prevent common mistakes: building from a feature request, treating interviews as demand, confusing a business plan with proof, ignoring existing alternatives, mistaking attention for willingness to pay, confusing operational access with willingness to pay, and turning a technical prototype into an unsolicited MVP.
 
 [Discussions](https://github.com/Rommancen/before-build/discussions) · [Issues](https://github.com/Rommancen/before-build/issues) · [Latest release](https://github.com/Rommancen/before-build/releases/latest)
 
 ## Who it is for
 
-Founders, product managers, consultants, agencies, and development teams that need to decide whether an incoming request should become discovery, an experiment, or a build.
+Founders, startup teams, product managers, investors, consultants, agencies, and development teams that need to decide whether an idea, business hypothesis, SaaS concept, business plan, product request, pilot, or new revenue initiative deserves discovery, an experiment, investment, or a build.
 
-This template does not replace customer research, financial modeling, legal review, or technical due diligence. It helps distinguish interest in an idea from evidence that justifies spending.
+This framework does not replace customer research, financial modeling, legal review, or technical due diligence. It provides the common first gate for all of them: distinguish an attractive story or interest in an idea from evidence that justifies spending, development, fundraising, or scale.
+
+## What it validates
+
+Before Build can be applied to:
+
+- startup ideas and business hypotheses;
+- SaaS, marketplace, platform, service, and digital-product concepts;
+- business plans, investment theses, and new ventures;
+- pricing, monetization, distribution, and go-to-market hypotheses;
+- product requests, feature proposals, automation ideas, and custom-development projects;
+- pilots, design partnerships, strategic partnerships, and new revenue channels;
+- internal innovation initiatives and operational transformation proposals;
+- any other claim that a defined customer, user, buyer, or payer will change behavior and create measurable economic value.
+
+The name of the initiative does not change the standard. Every idea must first pass the same evidence-driven sequence before it receives material capital, production development, or permission to scale.
 
 ## Contents
 
@@ -23,8 +38,10 @@ This template does not replace customer research, financial modeling, legal revi
 - [`docs/intake_record_template.md`](docs/intake_record_template.md) — a reusable record for evidence, alternatives, commitment, and the decision.
 - [`docs/example_intake_record.md`](docs/example_intake_record.md) — an anonymized example showing why a feature request leads to `TEST`, not `BUILD`.
 - [`docs/project_decision_profile_template.json`](docs/project_decision_profile_template.json) — a project-specific configuration that does not replace or weaken the decision engine.
+- [`docs/glossary.en.md`](docs/glossary.en.md) — concise definitions of the core decision-engine terms.
+- [`docs/example_paid_pilot_intake_record.en.md`](docs/example_paid_pilot_intake_record.en.md) — an illustrative paid-pilot example with a limited `BUILD` authorization.
 
-English documentation: [`intake checklist`](docs/intake_checklist.en.md) · [`intake record`](docs/intake_record_template.en.md) · [`example`](docs/example_intake_record.en.md)
+English documentation: [`intake checklist`](docs/intake_checklist.en.md) · [`intake record`](docs/intake_record_template.en.md) · [`example`](docs/example_intake_record.en.md) · [`glossary`](docs/glossary.en.md) · [`paid-pilot example`](docs/example_paid_pilot_intake_record.en.md)
 
 ```mermaid
 flowchart LR
@@ -62,7 +79,7 @@ Every decision must explicitly record a measurable outcome, one next action, a d
 
 ## How to use and publish
 
-This is an opinionated framework, not a ready-made application. Copy the repository, create a separate intake record for each request, and adapt only project-specific gates that can be verified. Do not weaken the canonical `decision_engine.json` to justify a decision that has already been made.
+This is an opinionated framework, not a ready-made application. Copy the repository, create a separate intake record for every idea or initiative, and adapt only project-specific gates that can be verified. Do not weaken the canonical `decision_engine.json` to justify a decision that has already been made.
 
 Before publishing a copy, review its Git history: deleting a file from the current state does not remove its contents from history. Do not publish history containing client materials, personal data, secrets, or internal documents.
 
@@ -74,17 +91,23 @@ Distributed under the [MIT License](LICENSE).
 
 # Русская версия
 
-Лёгкий шаблон для проверки продуктовых и заказных запросов до оценки, прототипирования и разработки.
+Лёгкая, но строгая evidence-driven система проверки бизнес-гипотез до инвестиций, оценки, прототипирования и разработки.
 
-Документация на английском: [`intake checklist`](docs/intake_checklist.en.md) · [`intake record`](docs/intake_record_template.en.md) · [`example`](docs/example_intake_record.en.md)
+Документация на английском: [`intake checklist`](docs/intake_checklist.en.md) · [`intake record`](docs/intake_record_template.en.md) · [`example`](docs/example_intake_record.en.md) · [`glossary`](docs/glossary.en.md) · [`paid-pilot example`](docs/example_paid_pilot_intake_record.en.md)
 
-Шаблон помогает не допускать типичных ошибок: строить по feature request, считать интервью спросом, игнорировать готовые альтернативы, путать операционный доступ с готовностью платить и превращать технический prototype в незаказанный MVP.
+Проект предназначен для проверки любых идей, на которых предполагается создать ценность, спрос, выручку или повторяемую бизнес-модель: стартапов, SaaS-продуктов, новых сервисов и платформ, бизнес-планов, инвестиционных инициатив, гипотез монетизации, продаж и дистрибуции, пилотов, партнёрств, автоматизации и заказной разработки.
+
+Он помогает не допускать типичных ошибок: строить по feature request, принимать красивый бизнес-план за доказательство, считать интервью спросом, путать интерес с готовностью платить, игнорировать готовые альтернативы, путать операционный доступ с willingness to pay и превращать технический prototype в незаказанный MVP.
+
+### Универсальный принцип
+
+Неважно, как называется инициатива — стартап, SaaS, бизнес-план, MVP, пилот, новый канал продаж, инвестиционная возможность, внутренняя инновация или запрос на разработку. Если она предполагает, что кто-то изменит поведение и заплатит за измеримый результат, она проходит один и тот же фильтр: сначала проблема и контекст, затем альтернативы и роли, потом поведенческое и экономическое evidence, и только после этого — ограниченный build и масштабирование.
 
 ## Для кого
 
-Для founders, product managers, консультантов, агентств и команд разработки, которым нужно решить, стоит ли превращать входящий запрос в Discovery, эксперимент или build.
+Для founders, стартап-команд, product managers, инвесторов, консультантов, агентств и команд разработки, которым нужно решить, заслуживает ли бизнес-идея, гипотеза, SaaS-концепция, бизнес-план, пилот или запрос на разработку Discovery, эксперимента, инвестиций или build.
 
-Шаблон не заменяет customer research, финансовую модель, юридическую экспертизу или технический due diligence. Он помогает не перепутать интерес к идее с основанием для затрат.
+Проект не заменяет customer research, финансовую модель, юридическую экспертизу или технический due diligence. Он задаёт общий первый фильтр для всех этих работ: помогает не перепутать привлекательную историю, интерес или намерение с evidence, которое оправдывает затраты, разработку, привлечение капитала или масштабирование.
 
 ## Содержимое
 
@@ -93,6 +116,7 @@ Distributed under the [MIT License](LICENSE).
 - [`docs/intake_record_template.md`](docs/intake_record_template.md) — копируемая карточка для фиксации evidence, альтернатив, commitment и решения.
 - [`docs/example_intake_record.md`](docs/example_intake_record.md) — короткий обезличенный пример: почему feature request приводит к `TEST`, а не к `BUILD`.
 - [`docs/project_decision_profile_template.json`](docs/project_decision_profile_template.json) — копируемая настройка для конкретного проекта; не заменяет и не ослабляет decision engine.
+- [`docs/quick_start.ru.md`](docs/quick_start.ru.md) — русская пошаговая инструкция для первого запуска.
 
 ## Быстрый старт
 

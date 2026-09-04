@@ -1,10 +1,10 @@
 # Intake Checklist
 
-Use this filter for every new product or custom-development request before estimation, architecture, a proof of concept, or code.
+Use this filter for every new business idea or hypothesis: a startup, SaaS concept, business plan, investment initiative, monetization model, pilot, partnership, internal innovation, product request, or custom-development project. Apply it before investment, estimation, architecture, a proof of concept, or code.
 
 ## Core rule
 
-Validate the problem, current alternatives, and costly commitment before authorizing commercial build. A feature request is not evidence of demand.
+Every initiative must validate the problem, current alternatives, and costly commitment before investment, commercial build, or scale is authorized. Its label, a persuasive business plan, audience interest, or technical feasibility does not change the evidence gate. A feature request is not evidence of demand.
 
 ## Triage
 
